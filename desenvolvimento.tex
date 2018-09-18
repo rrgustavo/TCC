@@ -1,0 +1,56 @@
+\chapter{Desenvolvimento}\label{chp:desenvol}
+\vspace{-1.5cm}
+\noindent\rule{\columnwidth}{1.2mm}
+
+
+
+\section{Metodologia}
+
+A metodologia do se divide entre, reconhecimento do projeto, execução e aprimoramento das etapas, tudo atrelado as normativas.
+
+A primeira etapa é reconhecer o projeto em si, tendo em vista a planta estrutural e construindo um diagrama de fluxo de toda a parte elétrica do sistema, transpondo todo o trecho que o grão deve passar, desde sua chegada até a saída do complexo. Conhecendo o fluxo desejado de grãos e a capacidade de armazenamento é possível realizar o dimensionamento das potências dos motores de cada etapa. 
+
+A divisão dos motores pode ser realizada a a partir da aplicação de cada motor, ou da área em que ele esta sendo utilizado:
+Dentre as aplicações tem-se:
+
+\begin{itemize}
+    \item Elevadores
+    \item Secadores
+    \item Aeração
+    \item Transportadores
+\end{itemize}
+
+Toda  a distribuição dos circuitos é realizada a partir do quadro de centro de controle de máquinas (CCM), é nele que fica todo o sistema de proteção e de partida de cada motor. Assim, tudo permanece de forma centralizada, facilitando a operação, manutenção, controle a aplicabilidade do sistema.
+
+\subsection{Organização}
+
+
+\subsection{Dimensionamento Cabos Elétricos}
+
+Para o dimensionamento de cabos elétricos de baixa tensão, é essencial utilizar como base  a norma NBR 5410. Devem ser dimensionados os condutores de fase, neutro (para os casos onde existem) e os condutores de aterramento. %cite
+
+\subsubsection{Condutores}
+
+Para dimensionamento dos condutores de fase, são levados em conta alguns critérios: 
+O critério de capacidade de condução de corrente dos cabos elétricos, tem como objetivo proteger os cabos dos efeitos térmicos causados pela condução de corrente, onde a corrente  que é transportada pelo cabo incluindo as harmônicas, não deve elevar a temperatura máxima além do permitido para o cabo em uso. 
+
+A norma fornece tabelas de consulta, onde pode ser visto a máxima corrente suportada para as funções normais de trabalho para cada respectiva bitola, de acordo com o método de instalação utilizado. Sendo sendo duas tabelas, para cabos cuja temperatura máxima suportada é de 70 $^{\circ}$c e para cabos cuja temperatura máxima suportada é de 90 $^{\circ}$c. Os cabos com grau maior de proteção suportam maiores corrente de trabalho, porém possuem um maior custo. 
+
+Para exemplificar analisamos um cabo de $6mm^2$, com 3 condutores e  método de instalação D (cabo multipolar em eletroduto enterrado no solo), o cabo com isolação PVC e temperatura no condutor de  70 $^{\circ}$c tem uma capacidade de condução de corrente de 39 A, já o cabo com isolação e EPR ou XLPE e temperatura no condutor de  90 $^{\circ}$c tem uma capacidade de corrente de 46A 
+
+Como a maior parte dos circuitos deste projeto é de motores elétricos é adotado para utilização  os cabos de 90 $^{\circ}$c de proteção.
+
+\subsection{Fatores de correção}
+A corrente nominal do motor é indicada na plaqueta e também pode ser obtida partir da potência do motor e da tensão de trabalho. Porém, para dimensionamento dos cabos alguns fatores de correção devem ser aplicados, a fim de garantir que o dimensionamento seja adequado para cada caso específico de utilização. 
+
+Cada fator de correção trará um valor diferente de corrente, para o o dimensionamento do cabo, deve ser utilizado o valor de maior corrente, ou seja, o pior caso.
+
+\subsubsection{Fator de temperatura ambiente}
+
+\subsubsection{Fator de agrupamento}
+O fator de agrupamento leva em conta os outros circuitos e cabos que são levados juntamente com 
+
+\subsection{Tubulação}
+
+
+\subsection{Iluminação}
